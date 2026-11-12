@@ -1,0 +1,187 @@
+[
+  {
+    "name": "Gruz Mother",
+    "essence": 0,
+    "flags": []
+  },
+  {
+    "name": "False Knight",
+    "essence": 0,
+    "flags": []
+  },
+  {
+    "name": "Failed Champion",
+    "essence": 300,
+    "flags": ["dreamnail", "beatenfalseknight"]
+  },
+  {
+    "name": "Brooding Mawlek",
+    "essence": 0,
+    "flags": []
+  },
+  {
+    "name": "Vengefly King",
+    "essence": 0,
+    "flags": []
+  },
+  {
+    "name": "Hornet Protector",
+    "essence": 0,
+    "flags": []
+  },
+  {
+    "name": "Crystal Guardian",
+    "essence": 0,
+    "flags": ["crystalpeak", "mothwingcloak"]
+  },
+  {
+    "name": "Enraged Guardian",
+    "essence": 0,
+    "flags": ["monarchwings", "beatencrystalguardian"]
+  },
+  {
+    "name": "Massive Moss Charger",
+    "essence": 0,
+    "flags": ["mothwingcloak"]
+  },
+  {
+    "name": "Mantis Lords",
+    "essence": 0,
+    "flags": ["mothwingcloak"]
+  },
+  {
+    "name": "Elegant Soul Warrior",
+    "essence": 0,
+    "flags": ["mothwingcloak", "crystalpeak"]
+  },
+  {
+    "name": "Soul Master",
+    "essence": 0,
+    "flags": ["beatenfalseknight", "mothwingcloak"]
+  },
+  {
+    "name": "Soul Tyrant",
+    "essence": 300,
+    "flags": ["dreamnail", "desolatedive"]
+  },
+  {
+    "name": "Xero",
+    "essence": 100,
+    "flags": ["dreamnail"]
+  },
+  {
+    "name": "No Eyes",
+    "essence": 200,
+    "flags": ["dreamnail", "lumaflylantern"]
+  },
+  {
+    "name": "Elder Hu",
+    "essence": 100,
+    "flags": ["dreamnail", "mothwingcloak"]
+  },
+  {
+    "name": "Dung Defender",
+    "essence": 0,
+    "flags": ["mothwingcloak", "beatenfalseknight"]
+  },
+  {
+    "name": "White Defender",
+    "essence": 0,
+    "flags": ["awokendreamnail", "ismatear"]
+  },
+  {
+    "name": "Flukemarm",
+    "essence": 0,
+    "flags": ["desolatedive"]
+  },
+  {
+    "name": "Troupe Master Grimm",
+    "essence": 0,
+    "flags": ["dreamnail", "mothwingcloak", "beatenfalseknight"]
+  },
+  {
+    "name": "Broken Vessel",
+    "essence": 0,
+    "flags": ["eastcity"]
+  },
+  {
+    "name": "Lost Kin",
+    "essence": 400,
+    "flags": ["dreamnail", "monarchwings"]
+  },
+  {
+    "name": "Galien",
+    "essence": 200,
+    "flags": ["dreamnail", "mothwingcloak"]
+  },
+  {
+    "name": "Nosk",
+    "essence": 0,
+    "flags": ["mothwingcloak"]
+  },
+  {
+    "name": "Uumuu",
+    "essence": 0,
+    "flags": ["ismatear"]
+  },
+  {
+    "name": "Collector",
+    "essence": 0,
+    "flags": ["ismatear"]
+  },
+  {
+    "name": "Marmu",
+    "essence": 150,
+    "flags": ["dreamnail", "ismatear"]
+  },
+  {
+    "name": "Oblobbles",
+    "essence": 0,
+    "flags": ["ismatear"]
+  },
+  {
+    "name": "God Tamer",
+    "essence": 0,
+    "flags": ["beatenoblobbles"]
+  },
+  {
+    "name": "Watcher Knights",
+    "essence": 0,
+    "flags": ["monarchwings"]
+  },
+  {
+    "name": "Hive Knight",
+    "essence": 0,
+    "flags": ["monarchwings"]
+  },
+  {
+    "name": "Hornet Sentinel",
+    "essence": 0,
+    "flags": ["monarchwings"]
+  },
+  {
+    "name": "Nightmare King Grimm",
+    "essence": 0,
+    "flags": ["dreamnail", "monarchwings", "beatengrimm"]
+  },
+  {
+    "name": "Markoth",
+    "essence": 250,
+    "flags": ["dreamnail", "shadecloak"]
+  },
+  {
+    "name": "Traitor Lord",
+    "essence": 0,
+    "flags": ["shadecloak"]
+  },
+  {
+    "name": "Grey Prince Zote",
+    "essence": 0,
+    "flags": [
+      "awokendreamnail",
+      "lumaflylantern",
+      "ismatear",
+      "beatenvengeflyking"
+    ]
+  }
+]

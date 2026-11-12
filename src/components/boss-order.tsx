@@ -1,22 +1,17 @@
 import type { BossSchema } from "../boss-schema";
+import BossSlot from "./boss-slot";
 
 interface BossOrderProps {
   bossOrder: BossSchema[];
+  game: string;
 }
 
-const BossOrder: React.FC<BossOrderProps> = ({ bossOrder }) => {
+const BossOrder: React.FC<BossOrderProps> = ({ bossOrder, game }) => {
   return (
-    <div>
-      {bossOrder.map((boss) => {
-        let bossCodename = boss.name.toLowerCase().replace(" ", "-");
-
-        return (
-          <div>
-            <img src={`assets/bosses-hk/${bossCodename}.png`} />
-            <h3>{boss.name}</h3>
-          </div>
-        );
-      })}
+    <div className="flex flex-row flex-wrap">
+      {bossOrder.map((boss) => (
+        <BossSlot bossName={boss.name} game={game} />
+      ))}
     </div>
   );
 };

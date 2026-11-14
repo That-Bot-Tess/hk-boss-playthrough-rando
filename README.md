@@ -7,6 +7,7 @@ This web app lets you randomize every boss in Hollow Knight and Silksong in an o
 ## Features:
 
 * Generate a random order of bosses to fight in either Hollow Knight or Silksong. (Boss orders should be possible without glitches)
+  * All bosses are included in the order, so be sure you've completed each game's true ending to avoid spoilers!
 * Enable skips that'll make some bosses even earlier than intended, such as acid skips to fight Uumuu before Dung Defender.
 * Check off bosses you beat for easy tracking, which is stored even after you reload the page!
 

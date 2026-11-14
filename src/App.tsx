@@ -4,7 +4,7 @@ import hkIcon from "./images/icon-hk.png";
 import ssIcon from "./images/icon-ss.png";
 import "./App.css";
 import BossOrder from "./components/boss-order";
-import type { BossSchema } from "./interfaces/boss-schema";
+import type { BossSchema } from "./boss-schema";
 import { assembleBossOrder } from "./utils/order-assembler";
 
 function App() {
@@ -14,11 +14,18 @@ function App() {
   const [fireballStalling, setFireballStalling] = useState<boolean>(false);
   const [wormwaysShortcut, setWormwaysShortcut] = useState<boolean>(false);
 
-  // Retrieve from local storage (for convenience)
+  const storeBossOrder = (order: BossSchema[] = bossOrder) => {
+    localStorage.setItem("bossOrder", JSON.stringify(order));
+    localStorage.setItem("game", game);
+  };
 
   useEffect(() => {
+    // Retrieve from local storage (for convenience)
     const storedBossOrder: string | null = localStorage.getItem("bossOrder");
     if (storedBossOrder) setBossOrder(JSON.parse(storedBossOrder));
+
+    const storedGame: string | null = localStorage.getItem("game");
+    if (storedGame) setGame(storedGame);
   }, []);
 
   return (
@@ -98,18 +105,22 @@ function App() {
         </div>
       </div>
       <button
-        onClick={() =>
-          assembleBossOrder(game, setBossOrder, {
+        onClick={() => {
+          assembleBossOrder(game, setBossOrder, storeBossOrder, {
             acidDashing,
             fireballStalling,
             wormwaysShortcut,
-          })
-        }
+          });
+        }}
         className="border-1 rounded-md px-4 py-2 my-4 text-xl hover:bg-white/10 active:bg-white active:text-black "
       >
         GENERATE RANDOM BOSS ORDER
       </button>
-      <BossOrder bossOrder={bossOrder} game={game} />
+      <BossOrder
+        bossOrder={bossOrder}
+        game={game}
+        storeFunction={storeBossOrder}
+      />
     </div>
   );
 }

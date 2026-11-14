@@ -1,174 +1,217 @@
 [
   {
     "name": "Bell Beast",
-    "flags": []
+    "flags": [],
+    "beaten": false
   },
   {
     "name": "Lace (Deep Docks)",
-    "flags": ["northernmarrow"]
+    "flags": ["northernmarrow"],
+    "beaten": false
   },
   {
     "name": "Fourth Chorus",
-    "flags": ["driftercloak"]
+    "flags": ["driftercloak"],
+    "beaten": false
   },
   {
     "name": "Savage Beastfly (Chapel of the Beast)",
-    "flags": ["driftercloak"]
+    "flags": ["driftercloak"],
+    "beaten": false
   },
   {
     "name": "Moorwing",
-    "flags": ["driftercloak", "act2ifskipped"]
+    "flags": ["driftercloak", "act2ifskipped"],
+    "beaten": false
   },
   {
     "name": "Sister Splinter",
-    "flags": ["shellwood"]
+    "flags": ["shellwood"],
+    "beaten": false
   },
   {
     "name": "Widow",
-    "flags": ["clinggrip"]
+    "flags": ["clinggrip"],
+    "beaten": false
   },
   {
     "name": "Great Conchflies",
-    "flags": ["clinggrip"]
+    "flags": ["clinggrip"],
+    "beaten": false
   },
   {
     "name": "Skull Tyrant",
-    "flags": ["clinggrip"]
+    "flags": ["clinggrip"],
+    "beaten": false
   },
   {
     "name": "Moss Mother Duo",
-    "flags": ["needolin"]
+    "flags": ["needolin"],
+    "beaten": false
   },
   {
     "name": "Phantom",
-    "flags": ["needolin"]
+    "flags": ["needolin"],
+    "beaten": false
   },
   {
     "name": "Last Judge",
-    "flags": ["needolin"]
+    "flags": ["needolin"],
+    "beaten": false
   },
   {
     "name": "Cogwork Dancers",
-    "flags": ["act2"]
+    "flags": ["act2"],
+    "beaten": false
   },
   {
     "name": "Savage Beastfly (Far Fields)",
-    "flags": ["act2", "beatenbeastfly", "beatenchorus"]
+    "flags": ["act2", "beatenbeastfly", "beatenchorus"],
+    "beaten": false
   },
   {
     "name": "Raging Conchfly",
-    "flags": ["act2", "sandsofkarak"]
+    "flags": ["act2", "sandsofkarak"],
+    "beaten": false
   },
   {
     "name": "Signis & Gron",
-    "flags": ["act2"]
+    "flags": ["act2"],
+    "beaten": false
   },
   {
     "name": "The Unravelled",
-    "flags": ["act2"]
+    "flags": ["act2"],
+    "beaten": false
   },
   {
     "name": "Broodmother",
-    "flags": ["act2"]
+    "flags": ["act2"],
+    "beaten": false
   },
   {
     "name": "Voltvyrm",
-    "flags": ["act2", "sandsofkarak", "driftercloak"]
+    "flags": ["act2", "sandsofkarak", "driftercloak"],
+    "beaten": false
   },
   {
     "name": "Disgraced Chef Lugoli",
-    "flags": ["act2", "driftercloak"]
+    "flags": ["act2", "driftercloak"],
+    "beaten": false
   },
   {
     "name": "Father of the Flame",
-    "flags": ["act2", "driftercloak"]
+    "flags": ["act2", "driftercloak"],
+    "beaten": false
   },
   {
     "name": "Groal the Great",
-    "flags": ["act2", "driftercloak"]
+    "flags": ["act2", "driftercloak"],
+    "beaten": false
   },
   {
     "name": "First Sinner",
-    "flags": ["act2", "driftercloak"]
+    "flags": ["act2", "driftercloak"],
+    "beaten": false
   },
   {
     "name": "Trobbio",
-    "flags": ["threefoldmelody"]
+    "flags": ["threefoldmelody"],
+    "beaten": false
   },
   {
     "name": "Garmond & Zaza",
-    "flags": ["threefoldmelody"]
+    "flags": ["threefoldmelody"],
+    "beaten": false
   },
   {
     "name": "Shakra",
-    "flags": ["threefoldorgroal"]
+    "flags": ["threefoldorgroal"],
+    "beaten": false
   },
   {
     "name": "Second Sentinel",
-    "flags": ["threefoldmelody"]
+    "flags": ["threefoldmelody"],
+    "beaten": false
   },
   {
     "name": "Lace (The Cradle)",
-    "flags": ["threefoldmelody", "beatengarmond", "beatentrobbio"]
+    "flags": ["threefoldmelody", "beatengarmond", "beatentrobbio"],
+    "beaten": false
   },
   {
     "name": "Grand Mother Silk",
-    "flags": ["beatengroal", "beatenlace", "beatenshakra"]
+    "flags": ["beatengroal", "beatenlace", "beatenshakra"],
+    "beaten": false
   },
   {
     "name": "Bell Eater",
-    "flags": ["act3"]
+    "flags": ["act3"],
+    "beaten": false
   },
   {
     "name": "Pinstress",
-    "flags": ["act3", "sandsofkarak"]
+    "flags": ["act3", "sandsofkarak"],
+    "beaten": false
   },
   {
     "name": "Plasmified Zango",
-    "flags": ["act3"]
+    "flags": ["act3"],
+    "beaten": false
   },
   {
     "name": "Tormented Trobbio",
-    "flags": ["act3"]
+    "flags": ["act3"],
+    "beaten": false
   },
   {
     "name": "Crawfather",
-    "flags": ["act3"]
+    "flags": ["act3"],
+    "beaten": false
   },
   {
     "name": "Lost Garmond",
-    "flags": ["act3"]
+    "flags": ["act3"],
+    "beaten": false
   },
   {
     "name": "Watcher at the Edge",
-    "flags": ["act3", "silksoar"]
+    "flags": ["act3", "silksoar"],
+    "beaten": false
   },
   {
     "name": "Palestag",
-    "flags": ["act3"]
+    "flags": ["act3"],
+    "beaten": false
   },
   {
     "name": "Clover Dancers",
-    "flags": ["act3", "beatenpalestag"]
+    "flags": ["act3", "beatenpalestag"],
+    "beaten": false
   },
   {
     "name": "Crust King Khann",
-    "flags": ["act3", "beatenconchfly", "silksoar"]
+    "flags": ["act3", "beatenconchfly", "silksoar"],
+    "beaten": false
   },
   {
     "name": "Shrine Guardian Seth",
-    "flags": ["act3", "silksoar"]
+    "flags": ["act3", "silksoar"],
+    "beaten": false
   },
   {
     "name": "Nyleth",
-    "flags": ["act3", "beatenseth"]
+    "flags": ["act3", "beatenseth"],
+    "beaten": false
   },
   {
     "name": "Skarrsinger Karmelita",
-    "flags": ["act3", "silksoar"]
+    "flags": ["act3", "silksoar"],
+    "beaten": false
   },
   {
     "name": "Gurr the Outcast",
-    "flags": ["act3", "silksoar"]
+    "flags": ["act3", "silksoar"],
+    "beaten": false
   }
 ]

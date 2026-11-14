@@ -1,14 +1,18 @@
-import type { BossSchema } from "../interfaces/boss-schema";
-import type { SkipList } from "../interfaces/skip-list";
+import type { BossSchema } from "../boss-schema";
 import { fetchBossList } from "./fetch";
 
 let lanternAccessible: boolean = false;
 let flagRemoved: boolean = true; //True to enable first iteration
 let totalEssence: number = 0;
 
+interface SkipList {
+  [key: string]: boolean;
+}
+
 export const assembleBossOrder = (
   game: string,
   setOrderFunction: CallableFunction,
+  storeOrderFunction: CallableFunction,
   skips: SkipList,
 ) => {
   fetchBossList(`data/bosses-${game}.json`, (bossList: BossSchema[]) => {
@@ -18,6 +22,7 @@ export const assembleBossOrder = (
             {
               name: "Moss Mother",
               flags: [],
+              beaten: false,
             },
           ]
         : [];
@@ -64,23 +69,26 @@ export const assembleBossOrder = (
           name: "Hollow Knight",
           essence: 0,
           flags: [],
+          beaten: false,
         },
         {
           name: "Radiance",
           essence: 0,
           flags: [],
+          beaten: false,
         },
       ]);
     } else if (game == "ss") {
       finalBossOrder.push({
         name: "Lost Lace",
         flags: [],
+        beaten: false,
       });
     }
 
     flagRemoved = true;
     setOrderFunction(finalBossOrder);
-    localStorage.setItem("bossOrder", JSON.stringify(finalBossOrder));
+    storeOrderFunction(finalBossOrder);
   });
 };
 

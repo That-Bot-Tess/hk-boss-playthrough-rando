@@ -1,14 +1,20 @@
+import { useState } from "react";
+import type { BossSchema } from "../boss-schema";
+
 interface BossSlotProps {
-  bossName: string;
+  boss: BossSchema;
   game: string;
+  storeFunction: CallableFunction;
 }
 
-const BossSlot: React.FC<BossSlotProps> = ({ bossName, game }) => {
-  let bossCodename: string = bossName
+const BossSlot: React.FC<BossSlotProps> = ({ boss, game, storeFunction }) => {
+  const [isBeaten, setIsBeaten] = useState<boolean>(boss.beaten);
+
+  let bossCodename: string = boss.name
     .toLowerCase()
     .replaceAll(" ", "-")
     .replace(/[()]/g, "");
-  switch (bossName) {
+  switch (boss.name) {
     case "Lace (Deep Docks)":
       bossCodename = bossCodename.replace("deep-docks", "1");
       break;
@@ -31,13 +37,25 @@ const BossSlot: React.FC<BossSlotProps> = ({ bossName, game }) => {
       <div className="h-[300px] xl:h-[250px] relative">
         <img
           src={`images/bosses/${game}/${bossCodename}.png`}
-          className="max-h-[300px] xl:max-h-[250px] absolute bottom-0 inset-x-0 mx-auto"
+          className={`max-h-[300px] xl:max-h-[250px] absolute bottom-0 inset-x-0 mx-auto ${isBeaten && "opacity-50"}`}
         />
       </div>
 
-      <h3 className="absolute bottom-0 text-center text-2xl w-full px-auto">
-        {bossName}
+      <h3
+        className={`absolute bottom-0 text-center text-2xl w-full px-auto ${isBeaten && "text-white/50"}`}
+      >
+        {boss.name}
       </h3>
+      <input
+        type="checkbox"
+        checked={isBeaten}
+        className="bg-transparent accent-transparent absolute right-1 top-1 w-[20px] h-[20px]"
+        onChange={(e) => {
+          boss.beaten = e.target.checked;
+          setIsBeaten(e.target.checked);
+          storeFunction();
+        }}
+      />
     </div>
   );
 };

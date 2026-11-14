@@ -1,16 +1,21 @@
-import type { BossSchema } from "../interfaces/boss-schema";
+import type { BossSchema } from "../boss-schema";
 import BossSlot from "./boss-slot";
 
 interface BossOrderProps {
   bossOrder: BossSchema[];
   game: string;
+  storeFunction: CallableFunction;
 }
 
-const BossOrder: React.FC<BossOrderProps> = ({ bossOrder, game }) => {
+const BossOrder: React.FC<BossOrderProps> = ({
+  bossOrder,
+  game,
+  storeFunction,
+}) => {
   return (
     <div className="w-9/10 flex flex-row flex-wrap">
       {bossOrder.map((boss) => (
-        <BossSlot bossName={boss.name} game={game} />
+        <BossSlot boss={boss} game={game} storeFunction={storeFunction} />
       ))}
     </div>
   );

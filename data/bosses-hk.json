@@ -2,177 +2,212 @@
   {
     "name": "Gruz Mother",
     "essence": 0,
-    "flags": []
+    "flags": [],
+    "beaten": false
   },
   {
     "name": "False Knight",
     "essence": 0,
-    "flags": []
+    "flags": [],
+    "beaten": false
   },
   {
     "name": "Failed Champion",
     "essence": 300,
-    "flags": ["dreamnail", "beatenfalseknight"]
+    "flags": ["dreamnail", "beatenfalseknight"],
+    "beaten": false
   },
   {
     "name": "Brooding Mawlek",
     "essence": 0,
-    "flags": []
+    "flags": [],
+    "beaten": false
   },
   {
     "name": "Vengefly King",
     "essence": 0,
-    "flags": []
+    "flags": [],
+    "beaten": false
   },
   {
     "name": "Hornet Protector",
     "essence": 0,
-    "flags": []
+    "flags": [],
+    "beaten": false
   },
   {
     "name": "Crystal Guardian",
     "essence": 0,
-    "flags": ["crystalpeak", "mothwingcloak"]
+    "flags": ["crystalpeak", "mothwingcloak"],
+    "beaten": false
   },
   {
     "name": "Enraged Guardian",
     "essence": 0,
-    "flags": ["monarchwings", "beatencrystalguardian"]
+    "flags": ["monarchwings", "beatencrystalguardian"],
+    "beaten": false
   },
   {
     "name": "Massive Moss Charger",
     "essence": 0,
-    "flags": ["mothwingcloakorfireballstall"]
+    "flags": ["mothwingcloakorfireballstall"],
+    "beaten": false
   },
   {
     "name": "Mantis Lords",
     "essence": 0,
-    "flags": ["mothwingcloak"]
+    "flags": ["mothwingcloak"],
+    "beaten": false
   },
   {
     "name": "Elegant Soul Warrior",
     "essence": 0,
-    "flags": ["mothwingcloak", "crystalpeak"]
+    "flags": ["mothwingcloak", "crystalpeak"],
+    "beaten": false
   },
   {
     "name": "Soul Master",
     "essence": 0,
-    "flags": ["beatenfalseknight", "mothwingcloak"]
+    "flags": ["beatenfalseknight", "mothwingcloak"],
+    "beaten": false
   },
   {
     "name": "Soul Tyrant",
     "essence": 300,
-    "flags": ["dreamnail", "desolatedive"]
+    "flags": ["dreamnail", "desolatedive"],
+    "beaten": false
   },
   {
     "name": "Xero",
     "essence": 100,
-    "flags": ["dreamnail"]
+    "flags": ["dreamnail"],
+    "beaten": false
   },
   {
     "name": "No Eyes",
     "essence": 200,
-    "flags": ["dreamnail", "lumaflylantern"]
+    "flags": ["dreamnail", "lumaflylantern"],
+    "beaten": false
   },
   {
     "name": "Elder Hu",
     "essence": 100,
-    "flags": ["dreamnail", "mothwingcloak"]
+    "flags": ["dreamnail", "mothwingcloak"],
+    "beaten": false
   },
   {
     "name": "Dung Defender",
     "essence": 0,
-    "flags": ["mothwingcloak", "beatenfalseknight"]
+    "flags": ["mothwingcloak", "beatenfalseknight"],
+    "beaten": false
   },
   {
     "name": "White Defender",
     "essence": 0,
-    "flags": ["awokendreamnail", "beatendefender"]
+    "flags": ["awokendreamnail", "beatendefender"],
+    "beaten": false
   },
   {
     "name": "Flukemarm",
     "essence": 0,
-    "flags": ["desolatedive"]
+    "flags": ["desolatedive"],
+    "beaten": false
   },
   {
     "name": "Troupe Master Grimm",
     "essence": 0,
-    "flags": ["dreamnail", "mothwingcloak", "beatenfalseknight"]
+    "flags": ["dreamnail", "mothwingcloak", "beatenfalseknight"],
+    "beaten": false
   },
   {
     "name": "Broken Vessel",
     "essence": 0,
-    "flags": ["eastcity"]
+    "flags": ["eastcity"],
+    "beaten": false
   },
   {
     "name": "Lost Kin",
     "essence": 400,
-    "flags": ["dreamnail", "monarchwings"]
+    "flags": ["dreamnail", "monarchwings"],
+    "beaten": false
   },
   {
     "name": "Galien",
     "essence": 200,
-    "flags": ["dreamnail", "mothwingcloak"]
+    "flags": ["dreamnail", "mothwingcloak"],
+    "beaten": false
   },
   {
     "name": "Nosk",
     "essence": 0,
-    "flags": ["mothwingcloak"]
+    "flags": ["mothwingcloak"],
+    "beaten": false
   },
   {
     "name": "Uumuu",
     "essence": 0,
-    "flags": ["mothwingcloak", "ismatear"]
+    "flags": ["mothwingcloak", "ismatear"],
+    "beaten": false
   },
   {
     "name": "Collector",
     "essence": 0,
-    "flags": ["mothwingcloak", "eastcity", "ismatear"]
+    "flags": ["mothwingcloak", "eastcity", "ismatear"],
+    "beaten": false
   },
   {
     "name": "Marmu",
     "essence": 150,
-    "flags": ["mothwingcloak", "dreamnail", "ismatear"]
+    "flags": ["mothwingcloak", "dreamnail", "ismatear"],
+    "beaten": false
   },
   {
     "name": "Oblobbles",
     "essence": 0,
-    "flags": ["mothwingcloak", "eastcity", "ismatear"]
+    "flags": ["mothwingcloak", "eastcity", "ismatear"],
+    "beaten": false
   },
   {
     "name": "God Tamer",
     "essence": 0,
-    "flags": ["beatenoblobbles"]
+    "flags": ["beatenoblobbles"],
+    "beaten": false
   },
   {
     "name": "Watcher Knights",
     "essence": 0,
-    "flags": ["monarchwings"]
+    "flags": ["monarchwings"],
+    "beaten": false
   },
   {
     "name": "Hive Knight",
     "essence": 0,
-    "flags": ["monarchwings"]
+    "flags": ["monarchwings"],
+    "beaten": false
   },
   {
     "name": "Hornet Sentinel",
     "essence": 0,
-    "flags": ["monarchwings"]
+    "flags": ["monarchwings"],
+    "beaten": false
   },
   {
     "name": "Nightmare King Grimm",
     "essence": 0,
-    "flags": ["dreamnail", "monarchwings", "beatengrimm"]
+    "flags": ["dreamnail", "monarchwings", "beatengrimm"],
+    "beaten": false
   },
   {
     "name": "Markoth",
     "essence": 250,
-    "flags": ["dreamnail", "shadecloak"]
+    "flags": ["dreamnail", "shadecloak"],
+    "beaten": false
   },
   {
     "name": "Traitor Lord",
     "essence": 0,
-    "flags": ["shadecloak"]
+    "flags": ["shadecloak"],
+    "beaten": false
   },
   {
     "name": "Grey Prince Zote",
@@ -182,6 +217,7 @@
       "lumaflylantern",
       "ismatear",
       "beatenvengeflyking"
-    ]
+    ],
+    "beaten": false
   }
 ]

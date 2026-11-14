@@ -1,6 +1,6 @@
 interface BossSchema {
   name: string;
-  essence: number;
+  essence?: number;
   flags: string[];
 }
 

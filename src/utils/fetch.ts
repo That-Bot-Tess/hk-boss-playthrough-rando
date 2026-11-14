@@ -1,4 +1,4 @@
-import type { BossSchema } from "../boss-schema";
+import type { BossSchema } from "../interfaces/boss-schema";
 
 export const fetchBossList = async (
   url: string,

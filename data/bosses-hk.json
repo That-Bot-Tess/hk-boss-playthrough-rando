@@ -42,7 +42,7 @@
   {
     "name": "Massive Moss Charger",
     "essence": 0,
-    "flags": ["mothwingcloak"]
+    "flags": ["mothwingcloakorfireballstall"]
   },
   {
     "name": "Mantis Lords",
@@ -87,7 +87,7 @@
   {
     "name": "White Defender",
     "essence": 0,
-    "flags": ["awokendreamnail", "ismatear"]
+    "flags": ["awokendreamnail", "beatendefender"]
   },
   {
     "name": "Flukemarm",
@@ -122,22 +122,22 @@
   {
     "name": "Uumuu",
     "essence": 0,
-    "flags": ["ismatear"]
+    "flags": ["mothwingcloak", "ismatear"]
   },
   {
     "name": "Collector",
     "essence": 0,
-    "flags": ["ismatear"]
+    "flags": ["mothwingcloak", "eastcity", "ismatear"]
   },
   {
     "name": "Marmu",
     "essence": 150,
-    "flags": ["dreamnail", "ismatear"]
+    "flags": ["mothwingcloak", "dreamnail", "ismatear"]
   },
   {
     "name": "Oblobbles",
     "essence": 0,
-    "flags": ["ismatear"]
+    "flags": ["mothwingcloak", "eastcity", "ismatear"]
   },
   {
     "name": "God Tamer",
